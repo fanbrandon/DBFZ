@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DBFZ Survey</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+    <h1 id="title">DBFZ Character Survey</h1>
+    <p id="description"> Please enter your main DBFZ team and fill out other info</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label">Name: <input id="name" 
+        type="text" name="name" required   placeholder="Gamertag"</label>
+        <label id="email-label">Email: <input id="email" 
+        type="email" name="email" required placeholder="example@gmail.com"</label>
+        <label id="number-label">How long have you been playing
+           <input id="number" type="number" name="number" 
+           min="0" max="4" placeholder="4 years"</label>
+      </fieldset>
+      <fieldset>
+        <label> What do you want to see in DBFZ's future?
+        <select id="dropdown">
+          <option value="">(Select One)</option>
+          <option value="1">DBFZ Season 4</option>
+          <option value="2">DBFZ 2</option>
+          <option value="3">Rollback in DBFZ</option>
+          <option value="4">A New Fighting Game</option>
+        </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>How often do you play DBFZ?
+          <label> <input type="radio" name="play-time" 
+          class="inline" value="ed"/> Everyday</label>
+          <label> <input type="radio" name="play-time" 
+          class="inline" value="st"/> Sometimes</label>
+          <label> <input type="radio" name="play-time" 
+          class="inline" value="vl"/> Very little</label>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>Fill out your main DBFZ team (Select 3):
+          <label> <input type="checkbox" class="inline" 
+          name="char" value="GKU">Goku (Super Saiyan)</label>
+          <label> <input type="checkbox" class="inline" 
+          name="char" value="VGT"> Vegeta (Super Saiyan)</label>
+          <label> <input type="checkbox" class="inline" 
+          name="char" value="GKN">Base Goku</label>
+          <label> <input type="checkbox" class="inline" 
+          name="char" value="VGN">Base Vegeta</label>
+          <label> <input type="checkbox" class="inline" 
+          name="char" value="BGK">Goku (Super Saiyan Blue)</label>
+          <label> <input type="checkbox" class="inline" 
+          name="char" value="BVG">Vegeta (Super Saiyan Blue)</label>
+          <label> <input type="checkbox" class="inline" 
+          name="char" value="GUI">Goku (Ultra Instinct)</label>
+          <label> <input type="checkbox" class="inline" 
+          name="char" value="GTG">Goku (GT)</label>
+          <label> <input type="checkbox" class="inline" 
+          name="char" value="VTO"> Vegito (Blue)</label>
+          <label> <input type="checkbox" class="inline" 
+          name="char" value="GTA">Gogeta (Blue)</label>
+          <label> <input type="checkbox" class="inline" 
+          name="char" value="GT4">Gogeta (SS4)</label>
+          <label> <input type="checkbox" class="inline" 
+          name="char" value="YGH">Gohan (Teen)</label>
+          <label> <input type="checkbox" class="inline" 
+          name="char" value="AGH">Gohan (Adult)</label>
+          <label> <input type="checkbox" class="inline" 
+          name="char" value="GTK">Gotenks</label>
+          <label> <input type="checkbox" class="inline" 
+          name="char" value="TNK">Trunks</label>
+          <label> <input type="checkbox" class="inline" 
+          name="char" value="KRL">Krillin</label>
+          <label> <input type="checkbox" class="inline" 
+          name="char" value="PIC">Piccolo</label>
+          <label> <input type="checkbox" class="inline" 
+          name="char" value="TEN">Tien</label>
+          <label> <input type="checkbox" class="inline" 
+          name="char" value="YAM">Yamcha</label>
+          <label> <input type="checkbox" class="inline" 
+          name="char" value="RSH">Master Roshi</label>
+          <label> <input type="checkbox" class="inline" 
+          name="char" value="VDL">Videl</label>
+          <label> <input type="checkbox" class="inline" 
+          name="char" value="A16">Android 16</label>
+          <label> <input type="checkbox" class="inline" 
+          name="char" value="A17">Android 17</label>
+          <label> <input type="checkbox" class="inline" 
+          name="char" value="A18">Android 18</label>
+          <label> <input type="checkbox" class="inline" 
+          name="char" value="A21">Android 21</label>
+          <label> <input type="checkbox" class="inline" 
+          name="char" value="L21">Android 21 (Lab Coat)</label>
+          <label> <input type="checkbox" class="inline" 
+          name="char" value="CEL">Cell</label>
+          <label> <input type="checkbox" class="inline" 
+          name="char" value="BDK">Bardock</label>
+          <label> <input type="checkbox" class="inline" 
+          name="char" value="BRO">Broly (DBZ)</label>
+          <label> <input type="checkbox" class="inline" 
+          name="char" value="SBR">Broly (DBS)</label>
+          <label> <input type="checkbox" class="inline" 
+          name="char" value="KEF">Kefla</label>
+          <label> <input type="checkbox" class="inline" 
+          name="char" value="MBU">Majin Buu</label>
+          <label> <input type="checkbox" class="inline" 
+          name="char" value="KBU">Kid Buu</label>
+          <label> <input type="checkbox" class="inline" 
+          name="char" value="FRZ">Frieza</label>
+          <label> <input type="checkbox" class="inline" 
+          name="char" value="CLR">Cooler</label>
+          <label> <input type="checkbox" class="inline" 
+          name="char" value="GNY">Captain Ginyu</label>
+          <label> <input type="checkbox" class="inline" 
+          name="char" value="BRS">Beerus</label>
+          <label> <input type="checkbox" class="inline" 
+          name="char" value="HIT">Hit</label>
+          <label> <input type="checkbox" class="inline" 
+          name="char" value="BLK">Goku Black</label>
+          <label> <input type="checkbox" class="inline" 
+          name="char" value="ZAM">Zamasu (Fused)</label>
+          <label> <input type="checkbox" class="inline" 
+          name="char" value="JNB">Janemba</label>
+          <label> <input type="checkbox" class="inline" 
+          name="char" value="JRN">Jiren</label>
+          <label> <input type="checkbox" class="inline" 
+          name="char" value="NAP">Nappa</label>
+          <label> <input type="checkbox" class="inline" 
+          name="char" value="SB2">Super Baby 2</label>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>Why did you choose this team?
+          <textarea name="discript" rows="3" cols="30" 
+          placeholder="They are my   favorite characters"></textarea>
+        </label>
+      </fieldset>
+      <input id="submit" type="submit"/>
+</body>
+</html>
